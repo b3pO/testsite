@@ -1,4 +1,39 @@
-h1, ul {
-    text-align: center;
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, .dishes {
+    text-align: center;
+}
+
+ol {
+    padding: 0;
+    margin: 30px;
+}
+
+.ingredients {
+    text-indent: 20px;
+}
+
+.directions {
+    text-indent: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.indentme {
+    text-indent: 50px;    
+}
+
+.halfindent {
+    text-indent: 25px;
+}
+
+#indent {
+    text-indent: 15px;
 }
